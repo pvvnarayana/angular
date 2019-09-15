@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TestComponent } from './test/test.component';
 import { StylebindingComponent } from './stylebinding/stylebinding.component';
+import { EventbindingComponent } from './eventbinding/eventbinding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TestComponent,
-    StylebindingComponent
+    StylebindingComponent,
+    EventbindingComponent
   ],
   imports: [
     BrowserModule,
